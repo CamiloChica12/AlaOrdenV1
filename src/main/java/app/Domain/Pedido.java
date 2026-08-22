@@ -22,8 +22,8 @@ public class Pedido {
 
     }
 
-    public void cambiarEstado(){
-
+    public void cambiarEstado(String estado){
+     this.estado = estado;
     }
 
     public void calcularTotal(){
@@ -34,8 +34,30 @@ public class Pedido {
 
     }
 
+   //SETTS GETTS
 
 
+    public int getId() {
+        return id;
+    }
 
+    public void setId(int id) {
+        this.id = id;
+    }
 
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
+    public String getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(String fecha) {
+        this.fecha = fecha;
+    }
 }
