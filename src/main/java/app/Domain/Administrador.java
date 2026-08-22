@@ -9,7 +9,7 @@ public class Administrador extends Usuario{
 
     //CONSTRUCTOR QUE INICIA MIS DATOS
     public Administrador(int id, String nombre, String correo, String contrasena, String telefono,
-                    boolean estado, String rol)
+                         boolean estado, String rol)
     {
         super(id, nombre, correo, contrasena, telefono, estado);
         this.rol = rol;
