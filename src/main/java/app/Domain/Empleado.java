@@ -9,7 +9,7 @@ public Empleado(){
 
 //CONSTRUCTOR QUE INICIA MIS DATOS
 public Empleado(int id, String nombre, String correo, String contrasena, String telefono,
-            boolean estado, String turno)
+                 boolean estado, String turno)
 {
     super(id, nombre, correo, contrasena, telefono, estado);
     this.turno = turno;
@@ -18,30 +18,40 @@ public Empleado(int id, String nombre, String correo, String contrasena, String 
 //setters and getters para usar datos protegidos
 
     public String getTurno() {
-        return turno;
+
+    return turno;
+
 }
 
     public void setTurno(String turno) {
-        this.turno = turno;
+
+    this.turno = turno;
+
     }
 
 //Methods
     @Override
 
     public void create(){
-        super.create();
+
+    super.create();
+
     }
 
     @Override
 
     public void selectAll(){
-        super.selectAll();
+
+    super.selectAll();
+
     }
 
     @Override
 
     public void selectById(int id){
-        super.selectById(id);
+
+    super.selectById(id);
+
     }
 
     @Override
@@ -53,7 +63,9 @@ public Empleado(int id, String nombre, String correo, String contrasena, String 
     @Override
 
     public void deleteById(int id){
-        super.deleteById(id);
+
+    super.deleteById(id);
+
     }
 
     private void verPedidos(int id){
